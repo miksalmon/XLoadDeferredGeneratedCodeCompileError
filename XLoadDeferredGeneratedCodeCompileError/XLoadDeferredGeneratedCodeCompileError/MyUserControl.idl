@@ -1,0 +1,12 @@
+namespace XLoadDeferredGeneratedCodeCompileError
+{
+    [default_interface]
+    runtimeclass MyUserControl : Microsoft.UI.Xaml.Controls.UserControl, Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        MyUserControl();
+
+        String GetLocalizedText(String resourceId);
+
+        Boolean IsTextBlockLoaded{ get; };
+    }
+}
